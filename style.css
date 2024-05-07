@@ -1,0 +1,42 @@
+* {
+    font-family: "JetBrains Mono", monospace;
+}
+
+
+body {
+    margin: 10rem;
+    background-color: #f0f0f0;
+}
+
+.keyboard-shortcuts {
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body.dark {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark a {
+    color: #00fff2;
+}
+
+/* navigation </> in the top left corner */
+.navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    margin: 3rem;
+
+    font-size: 3rem;
+    /* no underline */
+    text-decoration: none;
+}
